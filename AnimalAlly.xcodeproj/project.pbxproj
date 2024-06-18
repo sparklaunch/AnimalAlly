@@ -11,6 +11,31 @@
 		903319E42C1C363200121E2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903319E32C1C363200121E2C /* ContentView.swift */; };
 		903319E62C1C363400121E2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903319E52C1C363400121E2C /* Assets.xcassets */; };
 		903319E92C1C363400121E2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903319E82C1C363400121E2C /* Preview Assets.xcassets */; };
+		903319F12C1C367D00121E2C /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903319F02C1C367D00121E2C /* SplashView.swift */; };
+		903319F32C1C385E00121E2C /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903319F22C1C385E00121E2C /* LogInView.swift */; };
+		903319F62C1C399E00121E2C /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903319F52C1C399E00121E2C /* CustomTextFieldStyle.swift */; };
+		903319F82C1C3D8200121E2C /* CustomTextFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903319F72C1C3D8200121E2C /* CustomTextFieldType.swift */; };
+		903319FA2C1CF17A00121E2C /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903319F92C1CF17A00121E2C /* Router.swift */; };
+		903319FC2C1CF2C500121E2C /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903319FB2C1CF2C500121E2C /* Screen.swift */; };
+		903319FE2C1D2EA700121E2C /* SignUp1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903319FD2C1D2EA700121E2C /* SignUp1View.swift */; };
+		90331A002C1D2F6E00121E2C /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903319FF2C1D2F6E00121E2C /* ProgressBar.swift */; };
+		90331A022C1D37B400121E2C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90331A012C1D37B400121E2C /* StringExtension.swift */; };
+		90331A042C1D395000121E2C /* SignUp2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90331A032C1D395000121E2C /* SignUp2View.swift */; };
+		90331A062C1D3A4200121E2C /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90331A052C1D3A4200121E2C /* CheckBox.swift */; };
+		90C3CE3F2C1D427800E62CC4 /* SignUp3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE3E2C1D427800E62CC4 /* SignUp3View.swift */; };
+		90C3CE412C1D59DF00E62CC4 /* SignUp4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE402C1D59DF00E62CC4 /* SignUp4View.swift */; };
+		90C3CE432C1D5D8400E62CC4 /* SignUp5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE422C1D5D8400E62CC4 /* SignUp5View.swift */; };
+		90C3CE452C1D5FBF00E62CC4 /* SignUpCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE442C1D5FBF00E62CC4 /* SignUpCompleteView.swift */; };
+		90C3CE472C1D6AAF00E62CC4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE462C1D6AAF00E62CC4 /* HomeView.swift */; };
+		90C3CE492C1E6D3800E62CC4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE482C1E6D3800E62CC4 /* MainView.swift */; };
+		90C3CE4C2C1ECB2800E62CC4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE4B2C1ECB2800E62CC4 /* User.swift */; };
+		90C3CE4E2C1ECBA300E62CC4 /* Favor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE4D2C1ECBA300E62CC4 /* Favor.swift */; };
+		90C3CE502C1ED00500E62CC4 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE4F2C1ED00500E62CC4 /* UserStorage.swift */; };
+		90C3CE522C1ED83B00E62CC4 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE512C1ED83B00E62CC4 /* Animal.swift */; };
+		90C3CE6E2C200E7000E62CC4 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE6D2C200E7000E62CC4 /* AnimalDetailView.swift */; };
+		90C3CE702C20134300E62CC4 /* AnimalSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE6F2C20134300E62CC4 /* AnimalSize.swift */; };
+		90C3CE722C2013E300E62CC4 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE712C2013E300E62CC4 /* Gender.swift */; };
+		90C3CE762C20205000E62CC4 /* AnimalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE752C20205000E62CC4 /* AnimalStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +44,31 @@
 		903319E32C1C363200121E2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		903319E52C1C363400121E2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		903319E82C1C363400121E2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		903319F02C1C367D00121E2C /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		903319F22C1C385E00121E2C /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		903319F52C1C399E00121E2C /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
+		903319F72C1C3D8200121E2C /* CustomTextFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldType.swift; sourceTree = "<group>"; };
+		903319F92C1CF17A00121E2C /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		903319FB2C1CF2C500121E2C /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		903319FD2C1D2EA700121E2C /* SignUp1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp1View.swift; sourceTree = "<group>"; };
+		903319FF2C1D2F6E00121E2C /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		90331A012C1D37B400121E2C /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		90331A032C1D395000121E2C /* SignUp2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp2View.swift; sourceTree = "<group>"; };
+		90331A052C1D3A4200121E2C /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		90C3CE3E2C1D427800E62CC4 /* SignUp3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp3View.swift; sourceTree = "<group>"; };
+		90C3CE402C1D59DF00E62CC4 /* SignUp4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp4View.swift; sourceTree = "<group>"; };
+		90C3CE422C1D5D8400E62CC4 /* SignUp5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp5View.swift; sourceTree = "<group>"; };
+		90C3CE442C1D5FBF00E62CC4 /* SignUpCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCompleteView.swift; sourceTree = "<group>"; };
+		90C3CE462C1D6AAF00E62CC4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		90C3CE482C1E6D3800E62CC4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		90C3CE4B2C1ECB2800E62CC4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		90C3CE4D2C1ECBA300E62CC4 /* Favor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favor.swift; sourceTree = "<group>"; };
+		90C3CE4F2C1ED00500E62CC4 /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
+		90C3CE512C1ED83B00E62CC4 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		90C3CE6D2C200E7000E62CC4 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		90C3CE6F2C20134300E62CC4 /* AnimalSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalSize.swift; sourceTree = "<group>"; };
+		90C3CE712C2013E300E62CC4 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		90C3CE752C20205000E62CC4 /* AnimalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +101,12 @@
 		903319E02C1C363200121E2C /* AnimalAlly */ = {
 			isa = PBXGroup;
 			children = (
+				90C3CE4A2C1ECB2000E62CC4 /* Models */,
+				903319F92C1CF17A00121E2C /* Router.swift */,
+				903319FB2C1CF2C500121E2C /* Screen.swift */,
+				903319F42C1C398500121E2C /* CustomComponents */,
+				903319EF2C1C364600121E2C /* Views */,
 				903319E12C1C363200121E2C /* AnimalAllyApp.swift */,
-				903319E32C1C363200121E2C /* ContentView.swift */,
 				903319E52C1C363400121E2C /* Assets.xcassets */,
 				903319E72C1C363400121E2C /* Preview Content */,
 			);
@@ -65,6 +119,51 @@
 				903319E82C1C363400121E2C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		903319EF2C1C364600121E2C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				903319E32C1C363200121E2C /* ContentView.swift */,
+				903319F02C1C367D00121E2C /* SplashView.swift */,
+				903319F22C1C385E00121E2C /* LogInView.swift */,
+				903319FD2C1D2EA700121E2C /* SignUp1View.swift */,
+				90331A032C1D395000121E2C /* SignUp2View.swift */,
+				90C3CE3E2C1D427800E62CC4 /* SignUp3View.swift */,
+				90C3CE402C1D59DF00E62CC4 /* SignUp4View.swift */,
+				90C3CE422C1D5D8400E62CC4 /* SignUp5View.swift */,
+				90C3CE442C1D5FBF00E62CC4 /* SignUpCompleteView.swift */,
+				90C3CE462C1D6AAF00E62CC4 /* HomeView.swift */,
+				90C3CE482C1E6D3800E62CC4 /* MainView.swift */,
+				90C3CE6D2C200E7000E62CC4 /* AnimalDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		903319F42C1C398500121E2C /* CustomComponents */ = {
+			isa = PBXGroup;
+			children = (
+				903319F52C1C399E00121E2C /* CustomTextFieldStyle.swift */,
+				903319F72C1C3D8200121E2C /* CustomTextFieldType.swift */,
+				903319FF2C1D2F6E00121E2C /* ProgressBar.swift */,
+				90331A012C1D37B400121E2C /* StringExtension.swift */,
+				90331A052C1D3A4200121E2C /* CheckBox.swift */,
+			);
+			path = CustomComponents;
+			sourceTree = "<group>";
+		};
+		90C3CE4A2C1ECB2000E62CC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				90C3CE4B2C1ECB2800E62CC4 /* User.swift */,
+				90C3CE4D2C1ECBA300E62CC4 /* Favor.swift */,
+				90C3CE4F2C1ED00500E62CC4 /* UserStorage.swift */,
+				90C3CE512C1ED83B00E62CC4 /* Animal.swift */,
+				90C3CE6F2C20134300E62CC4 /* AnimalSize.swift */,
+				90C3CE712C2013E300E62CC4 /* Gender.swift */,
+				90C3CE752C20205000E62CC4 /* AnimalStorage.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +236,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				903319F82C1C3D8200121E2C /* CustomTextFieldType.swift in Sources */,
 				903319E42C1C363200121E2C /* ContentView.swift in Sources */,
+				90C3CE702C20134300E62CC4 /* AnimalSize.swift in Sources */,
+				90C3CE432C1D5D8400E62CC4 /* SignUp5View.swift in Sources */,
 				903319E22C1C363200121E2C /* AnimalAllyApp.swift in Sources */,
+				903319FE2C1D2EA700121E2C /* SignUp1View.swift in Sources */,
+				90C3CE492C1E6D3800E62CC4 /* MainView.swift in Sources */,
+				903319FA2C1CF17A00121E2C /* Router.swift in Sources */,
+				90C3CE722C2013E300E62CC4 /* Gender.swift in Sources */,
+				903319F32C1C385E00121E2C /* LogInView.swift in Sources */,
+				90C3CE762C20205000E62CC4 /* AnimalStorage.swift in Sources */,
+				90C3CE4C2C1ECB2800E62CC4 /* User.swift in Sources */,
+				903319F12C1C367D00121E2C /* SplashView.swift in Sources */,
+				90C3CE4E2C1ECBA300E62CC4 /* Favor.swift in Sources */,
+				903319F62C1C399E00121E2C /* CustomTextFieldStyle.swift in Sources */,
+				90C3CE472C1D6AAF00E62CC4 /* HomeView.swift in Sources */,
+				90C3CE452C1D5FBF00E62CC4 /* SignUpCompleteView.swift in Sources */,
+				90C3CE502C1ED00500E62CC4 /* UserStorage.swift in Sources */,
+				90C3CE3F2C1D427800E62CC4 /* SignUp3View.swift in Sources */,
+				90331A002C1D2F6E00121E2C /* ProgressBar.swift in Sources */,
+				90C3CE6E2C200E7000E62CC4 /* AnimalDetailView.swift in Sources */,
+				90C3CE522C1ED83B00E62CC4 /* Animal.swift in Sources */,
+				90331A022C1D37B400121E2C /* StringExtension.swift in Sources */,
+				903319FC2C1CF2C500121E2C /* Screen.swift in Sources */,
+				90331A062C1D3A4200121E2C /* CheckBox.swift in Sources */,
+				90331A042C1D395000121E2C /* SignUp2View.swift in Sources */,
+				90C3CE412C1D59DF00E62CC4 /* SignUp4View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +399,14 @@
 				DEVELOPMENT_TEAM = 862P2X6G9G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AnimalAlly;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +431,14 @@
 				DEVELOPMENT_TEAM = 862P2X6G9G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AnimalAlly;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
