@@ -24,14 +24,10 @@ struct AnimalDetailView: View {
                         Button {
                             favoriteAnimal()
                         } label: {
-                            ZStack {
-                                Circle()
-                                    .fill(.red.opacity(0.5))
-                                    .frame(width: 40)
-                                Image(systemName: isFavorite ? "heart.fill" : "heart")
-                                    .foregroundStyle(.red)
-                            }
-                            .padding(30)
+                            Image(systemName: isFavorite ? "heart.fill" : "heart")
+                                .font(.largeTitle)
+                                .foregroundStyle(.red)
+                                .padding(30)
                         }
                         .foregroundStyle(.black)
                     }
@@ -73,7 +69,7 @@ struct AnimalDetailView: View {
                         .padding()
                     }
                 }
-                .padding(.horizontal)
+                .padding([.horizontal, .bottom])
                 if let description = animal.description {
                     VStack(alignment: .leading) {
                         Text("이 동물에 대하여")

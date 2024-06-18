@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-class UserStorage: Observable {
+@Observable
+class UserStorage {
     static let targetURL = URL.documentsDirectory.appending(path: "users")
     var users = [User]() {
         didSet {

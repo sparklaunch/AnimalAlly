@@ -100,7 +100,6 @@ struct LogInView: View {
         }
         if let emailIndex {
             let targetUser = userStorage.users[emailIndex]
-            print(targetUser.favoriteAnimals)
             if targetUser.password == password {
                 userStorage.currentUser = targetUser
                 router.path.append(Screen.main)

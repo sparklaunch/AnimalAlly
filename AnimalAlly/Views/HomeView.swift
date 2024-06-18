@@ -8,6 +8,21 @@
 import SwiftUI
 
 struct HomeView: View {
+    private let ngos = [
+        "Apple",
+        "Banana",
+        "Citron",
+        "Dragonfruit",
+        "Eggplant",
+        "Fraise",
+        "Garment",
+        "Hat",
+        "Inset",
+        "Jagged",
+        "Kilogram",
+        "Load",
+        "Money"
+    ]
     @Environment(UserStorage.self) private var userStorage
     @Environment(AnimalStorage.self) private var animalStorage
     @State private var searchText = ""
@@ -15,6 +30,21 @@ struct HomeView: View {
     @State private var showingAlert = false
     @State private var alertTitle = ""
     @State private var alertMessage = ""
+    @State private var showingShowAllSheet = false
+    private var nearbyAnimals: [Animal] {
+        animalStorage.animals.filter { animal in
+            animal.isNearby
+        }
+    }
+    private var matchingNGOs: [String] {
+        if searchText.isEmpty {
+            []
+        } else {
+            ngos.filter { ngo in
+                ngo.localizedStandardContains(searchText)
+            }
+        }
+    }
     var body: some View {
         ScrollView {
             VStack {
@@ -38,13 +68,31 @@ struct HomeView: View {
                     .foregroundStyle(.black)
                 }
                 .padding(.horizontal)
-                TextField("가까운 NGO 찾기", text: $searchText)
+                TextField("가까운 NGO 찾기", text: $searchText.animation(.bouncy))
                     .textFieldStyle(CustomTextFieldStyle(type: .search, isVisible: .constant(true)))
                     .padding(.horizontal)
+                Divider()
+                    .overlay(alignment: .top) {
+                        if !searchText.isEmpty && !searchText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty && !matchingNGOs.isEmpty {
+                            ZStack(alignment: .topLeading) {
+                                RoundedRectangle(cornerRadius: 5, style: .continuous)
+                                    .fill(.white)
+                                    .shadow(radius: 5)
+                                VStack(alignment: .leading) {
+                                    ForEach(matchingNGOs, id: \.self) { ngo in
+                                        Text(ngo)
+                                    }
+                                }
+                                .padding()
+                            }
+                        }
+                    }
+                    .padding(.horizontal)
+                    .zIndex(1)
                 HStack {
                     GeometryReader { proxy in
-                        Button {
-
+                        NavigationLink {
+                            AdoptPetView()
                         } label: {
                             ZStack(alignment: .topLeading) {
                                 RoundedRectangle(cornerRadius: 5, style: .continuous)
@@ -135,14 +183,14 @@ struct HomeView: View {
                     Text("근처")
                     Spacer()
                     Button("모두 보기") {
-
+                        showingShowAllSheet = true
                     }
                     .foregroundStyle(.black)
                 }
                 .padding()
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack {
-                        ForEach(animalStorage.animals) { animal in
+                        ForEach(nearbyAnimals) { animal in
                             NavigationLink {
                                 AnimalDetailView(animal: animal)
                             } label: {
@@ -173,27 +221,42 @@ struct HomeView: View {
                 .padding()
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack {
-                        VStack(alignment: .leading) {
-                            Image(.volunteer)
-                                .resizable()
-                                .scaledToFit()
-                            Text("자원 봉사")
-                                .font(.caption)
+                        Button {
+
+                        } label: {
+                            VStack(alignment: .leading) {
+                                Image(.volunteer)
+                                    .resizable()
+                                    .scaledToFit()
+                                Text("자원 봉사")
+                                    .font(.caption)
+                            }
                         }
-                        VStack(alignment: .leading) {
-                            Image(.buyDailyItems)
-                                .resizable()
-                                .scaledToFit()
-                            Text("물품 구매")
-                                .font(.caption)
+                        .foregroundStyle(.black)
+                        Button {
+
+                        } label: {
+                            VStack(alignment: .leading) {
+                                Image(.buyDailyItems)
+                                    .resizable()
+                                    .scaledToFit()
+                                Text("물품 구매")
+                                    .font(.caption)
+                            }
                         }
-                        VStack(alignment: .leading) {
-                            Image(.donations)
-                                .resizable()
-                                .scaledToFit()
-                            Text("기부")
-                                .font(.caption)
+                        .foregroundStyle(.black)
+                        Button {
+
+                        } label: {
+                            VStack(alignment: .leading) {
+                                Image(.donations)
+                                    .resizable()
+                                    .scaledToFit()
+                                Text("기부")
+                                    .font(.caption)
+                            }
                         }
+                        .foregroundStyle(.black)
                     }
                     .padding(.horizontal)
                 }
@@ -204,6 +267,9 @@ struct HomeView: View {
             Button("확인") {}
         } message: {
             Text(alertMessage)
+        }
+        .sheet(isPresented: $showingShowAllSheet) {
+            ShowAllSheetView(animals: nearbyAnimals)
         }
     }
     func checkNotifications() {
