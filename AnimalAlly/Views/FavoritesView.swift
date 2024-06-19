@@ -42,3 +42,7 @@ struct FavoritesView: View {
     }
 }
 
+#Preview {
+    FavoritesView()
+        .environment(UserStorage())
+}

@@ -45,6 +45,7 @@
 		90CEA22C2C2260FA00705850 /* PasswordResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CEA22B2C2260FA00705850 /* PasswordResetView.swift */; };
 		90CEA22E2C22661C00705850 /* PetPreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CEA22D2C22661C00705850 /* PetPreferencesView.swift */; };
 		90CEA2302C22680E00705850 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CEA22F2C22680E00705850 /* FavoritesView.swift */; };
+		90CEA2322C22829E00705850 /* BindingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CEA2312C22829E00705850 /* BindingExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		90CEA22B2C2260FA00705850 /* PasswordResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetView.swift; sourceTree = "<group>"; };
 		90CEA22D2C22661C00705850 /* PetPreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPreferencesView.swift; sourceTree = "<group>"; };
 		90CEA22F2C22680E00705850 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		90CEA2312C22829E00705850 /* BindingExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 				903319FF2C1D2F6E00121E2C /* ProgressBar.swift */,
 				90331A012C1D37B400121E2C /* StringExtension.swift */,
 				90331A052C1D3A4200121E2C /* CheckBox.swift */,
+				90CEA2312C22829E00705850 /* BindingExtension.swift */,
 			);
 			path = CustomComponents;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				903319E22C1C363200121E2C /* AnimalAllyApp.swift in Sources */,
 				903319FE2C1D2EA700121E2C /* SignUp1View.swift in Sources */,
 				90C3CE492C1E6D3800E62CC4 /* MainView.swift in Sources */,
+				90CEA2322C22829E00705850 /* BindingExtension.swift in Sources */,
 				90CEA2302C22680E00705850 /* FavoritesView.swift in Sources */,
 				903319FA2C1CF17A00121E2C /* Router.swift in Sources */,
 				90C3CE722C2013E300E62CC4 /* Gender.swift in Sources */,
@@ -442,7 +446,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,7 +478,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

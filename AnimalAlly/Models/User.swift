@@ -17,7 +17,7 @@ struct User: Identifiable, Codable, Hashable {
     var photoName: String?
     let radius: Double
     var favoriteAnimals: Set<Animal> = []
-    let favor: Favor
+    var favor: Favor
     init(id: UUID = UUID(), name: String, emailAddress: String, password: String, address: String, photoName: String? = nil, radius: Double, favoriteAnimals: Set<Animal>, favor: Favor) {
         self.id = id
         self.name = name
