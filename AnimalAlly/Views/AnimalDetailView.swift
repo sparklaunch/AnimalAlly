@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct AnimalDetailView: View {
     @Environment(UserStorage.self) private var userStorage
@@ -78,6 +79,14 @@ struct AnimalDetailView: View {
                     }
                     .padding(.horizontal)
                 }
+                VStack(alignment: .leading) {
+                    Text("현위치")
+                    Map(initialPosition: MapCameraPosition.region(MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: animal.location.latitude, longitude: animal.location.longitude), span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1))))
+                        .frame(height: 300)
+                        .clipShape(.rect(cornerRadius: 5, style: .continuous))
+                }
+
+                .padding()
             }
         }
         .onAppear {
@@ -97,9 +106,4 @@ struct AnimalDetailView: View {
             isFavorite = true
         }
     }
-}
-
-#Preview {
-    AnimalDetailView(animal: .example)
-        .environment(UserStorage())
 }

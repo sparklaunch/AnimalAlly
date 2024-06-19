@@ -12,7 +12,7 @@ struct User: Identifiable, Codable, Hashable {
     var id = UUID()
     let name: String
     let emailAddress: String
-    let password: String
+    var password: String
     let address: String
     var photoName: String?
     let radius: Double

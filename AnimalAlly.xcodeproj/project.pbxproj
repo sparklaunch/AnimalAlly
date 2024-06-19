@@ -39,6 +39,12 @@
 		90C3CE762C20205000E62CC4 /* AnimalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE752C20205000E62CC4 /* AnimalStorage.swift */; };
 		90C3CE782C21504600E62CC4 /* ShowAllSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE772C21504600E62CC4 /* ShowAllSheetView.swift */; };
 		90C3CE7A2C215CEC00E62CC4 /* AdoptPetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE792C215CEC00E62CC4 /* AdoptPetView.swift */; };
+		90CEA2262C224AE000705850 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CEA2252C224AE000705850 /* Location.swift */; };
+		90CEA2282C224D4F00705850 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CEA2272C224D4F00705850 /* UserDetailView.swift */; };
+		90CEA22A2C225F5400705850 /* ProfileDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CEA2292C225F5400705850 /* ProfileDetailView.swift */; };
+		90CEA22C2C2260FA00705850 /* PasswordResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CEA22B2C2260FA00705850 /* PasswordResetView.swift */; };
+		90CEA22E2C22661C00705850 /* PetPreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CEA22D2C22661C00705850 /* PetPreferencesView.swift */; };
+		90CEA2302C22680E00705850 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CEA22F2C22680E00705850 /* FavoritesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +81,12 @@
 		90C3CE752C20205000E62CC4 /* AnimalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalStorage.swift; sourceTree = "<group>"; };
 		90C3CE772C21504600E62CC4 /* ShowAllSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAllSheetView.swift; sourceTree = "<group>"; };
 		90C3CE792C215CEC00E62CC4 /* AdoptPetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdoptPetView.swift; sourceTree = "<group>"; };
+		90CEA2252C224AE000705850 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		90CEA2272C224D4F00705850 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		90CEA2292C225F5400705850 /* ProfileDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailView.swift; sourceTree = "<group>"; };
+		90CEA22B2C2260FA00705850 /* PasswordResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetView.swift; sourceTree = "<group>"; };
+		90CEA22D2C22661C00705850 /* PetPreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPreferencesView.swift; sourceTree = "<group>"; };
+		90CEA22F2C22680E00705850 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +156,11 @@
 				90C3CE6D2C200E7000E62CC4 /* AnimalDetailView.swift */,
 				90C3CE772C21504600E62CC4 /* ShowAllSheetView.swift */,
 				90C3CE792C215CEC00E62CC4 /* AdoptPetView.swift */,
+				90CEA2272C224D4F00705850 /* UserDetailView.swift */,
+				90CEA2292C225F5400705850 /* ProfileDetailView.swift */,
+				90CEA22B2C2260FA00705850 /* PasswordResetView.swift */,
+				90CEA22D2C22661C00705850 /* PetPreferencesView.swift */,
+				90CEA22F2C22680E00705850 /* FavoritesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +188,7 @@
 				90C3CE712C2013E300E62CC4 /* Gender.swift */,
 				90C3CE752C20205000E62CC4 /* AnimalStorage.swift */,
 				90A9A8772C215EF40093581A /* AnimalType.swift */,
+				90CEA2252C224AE000705850 /* Location.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -253,12 +271,15 @@
 				903319E22C1C363200121E2C /* AnimalAllyApp.swift in Sources */,
 				903319FE2C1D2EA700121E2C /* SignUp1View.swift in Sources */,
 				90C3CE492C1E6D3800E62CC4 /* MainView.swift in Sources */,
+				90CEA2302C22680E00705850 /* FavoritesView.swift in Sources */,
 				903319FA2C1CF17A00121E2C /* Router.swift in Sources */,
 				90C3CE722C2013E300E62CC4 /* Gender.swift in Sources */,
 				903319F32C1C385E00121E2C /* LogInView.swift in Sources */,
 				90C3CE762C20205000E62CC4 /* AnimalStorage.swift in Sources */,
 				90C3CE4C2C1ECB2800E62CC4 /* User.swift in Sources */,
+				90CEA22E2C22661C00705850 /* PetPreferencesView.swift in Sources */,
 				903319F12C1C367D00121E2C /* SplashView.swift in Sources */,
+				90CEA22A2C225F5400705850 /* ProfileDetailView.swift in Sources */,
 				90C3CE4E2C1ECBA300E62CC4 /* Favor.swift in Sources */,
 				903319F62C1C399E00121E2C /* CustomTextFieldStyle.swift in Sources */,
 				90C3CE472C1D6AAF00E62CC4 /* HomeView.swift in Sources */,
@@ -271,8 +292,11 @@
 				90A9A8782C215EF40093581A /* AnimalType.swift in Sources */,
 				90331A022C1D37B400121E2C /* StringExtension.swift in Sources */,
 				903319FC2C1CF2C500121E2C /* Screen.swift in Sources */,
+				90CEA22C2C2260FA00705850 /* PasswordResetView.swift in Sources */,
 				90331A062C1D3A4200121E2C /* CheckBox.swift in Sources */,
 				90331A042C1D395000121E2C /* SignUp2View.swift in Sources */,
+				90CEA2282C224D4F00705850 /* UserDetailView.swift in Sources */,
+				90CEA2262C224AE000705850 /* Location.swift in Sources */,
 				90C3CE412C1D59DF00E62CC4 /* SignUp4View.swift in Sources */,
 				90C3CE782C21504600E62CC4 /* ShowAllSheetView.swift in Sources */,
 			);

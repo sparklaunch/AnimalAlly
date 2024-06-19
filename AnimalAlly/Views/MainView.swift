@@ -14,7 +14,7 @@ struct MainView: View {
                 .tabItem {
                     Label("홈", systemImage: "house")
                 }
-            HomeView()
+            FavoritesView()
                 .tabItem {
                     Label("즐겨찾기", systemImage: "heart")
                 }
@@ -22,7 +22,7 @@ struct MainView: View {
                 .tabItem {
                     Label("대화", systemImage: "message")
                 }
-            HomeView()
+            UserDetailView()
                 .tabItem {
                     Label("프로필", systemImage: "person")
                 }
