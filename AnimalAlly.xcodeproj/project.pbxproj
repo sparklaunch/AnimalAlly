@@ -23,6 +23,8 @@
 		90331A042C1D395000121E2C /* SignUp2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90331A032C1D395000121E2C /* SignUp2View.swift */; };
 		90331A062C1D3A4200121E2C /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90331A052C1D3A4200121E2C /* CheckBox.swift */; };
 		90A9A8782C215EF40093581A /* AnimalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A9A8772C215EF40093581A /* AnimalType.swift */; };
+		90A9A87C2C22A28C0093581A /* FoundAndLostFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A9A87B2C22A28C0093581A /* FoundAndLostFormView.swift */; };
+		90A9A8802C22A4A40093581A /* AnimalStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A9A87F2C22A4A40093581A /* AnimalStatus.swift */; };
 		90C3CE3F2C1D427800E62CC4 /* SignUp3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE3E2C1D427800E62CC4 /* SignUp3View.swift */; };
 		90C3CE412C1D59DF00E62CC4 /* SignUp4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE402C1D59DF00E62CC4 /* SignUp4View.swift */; };
 		90C3CE432C1D5D8400E62CC4 /* SignUp5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3CE422C1D5D8400E62CC4 /* SignUp5View.swift */; };
@@ -66,6 +68,8 @@
 		90331A032C1D395000121E2C /* SignUp2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp2View.swift; sourceTree = "<group>"; };
 		90331A052C1D3A4200121E2C /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		90A9A8772C215EF40093581A /* AnimalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalType.swift; sourceTree = "<group>"; };
+		90A9A87B2C22A28C0093581A /* FoundAndLostFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundAndLostFormView.swift; sourceTree = "<group>"; };
+		90A9A87F2C22A4A40093581A /* AnimalStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalStatus.swift; sourceTree = "<group>"; };
 		90C3CE3E2C1D427800E62CC4 /* SignUp3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp3View.swift; sourceTree = "<group>"; };
 		90C3CE402C1D59DF00E62CC4 /* SignUp4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp4View.swift; sourceTree = "<group>"; };
 		90C3CE422C1D5D8400E62CC4 /* SignUp5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp5View.swift; sourceTree = "<group>"; };
@@ -163,6 +167,7 @@
 				90CEA22B2C2260FA00705850 /* PasswordResetView.swift */,
 				90CEA22D2C22661C00705850 /* PetPreferencesView.swift */,
 				90CEA22F2C22680E00705850 /* FavoritesView.swift */,
+				90A9A87B2C22A28C0093581A /* FoundAndLostFormView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 				90C3CE752C20205000E62CC4 /* AnimalStorage.swift */,
 				90A9A8772C215EF40093581A /* AnimalType.swift */,
 				90CEA2252C224AE000705850 /* Location.swift */,
+				90A9A87F2C22A4A40093581A /* AnimalStatus.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -285,6 +291,7 @@
 				903319F12C1C367D00121E2C /* SplashView.swift in Sources */,
 				90CEA22A2C225F5400705850 /* ProfileDetailView.swift in Sources */,
 				90C3CE4E2C1ECBA300E62CC4 /* Favor.swift in Sources */,
+				90A9A87C2C22A28C0093581A /* FoundAndLostFormView.swift in Sources */,
 				903319F62C1C399E00121E2C /* CustomTextFieldStyle.swift in Sources */,
 				90C3CE472C1D6AAF00E62CC4 /* HomeView.swift in Sources */,
 				90C3CE452C1D5FBF00E62CC4 /* SignUpCompleteView.swift in Sources */,
@@ -295,6 +302,7 @@
 				90C3CE522C1ED83B00E62CC4 /* Animal.swift in Sources */,
 				90A9A8782C215EF40093581A /* AnimalType.swift in Sources */,
 				90331A022C1D37B400121E2C /* StringExtension.swift in Sources */,
+				90A9A8802C22A4A40093581A /* AnimalStatus.swift in Sources */,
 				903319FC2C1CF2C500121E2C /* Screen.swift in Sources */,
 				90CEA22C2C2260FA00705850 /* PasswordResetView.swift in Sources */,
 				90331A062C1D3A4200121E2C /* CheckBox.swift in Sources */,

@@ -122,8 +122,8 @@ struct HomeView: View {
                     }
                     .frame(height: geometryReaderHeight)
                     GeometryReader { proxy in
-                        Button {
-
+                        NavigationLink {
+                            FoundAndLostFormView()
                         } label: {
                             ZStack(alignment: .topLeading) {
                                 RoundedRectangle(cornerRadius: 5, style: .continuous)
